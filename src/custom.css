@@ -1,0 +1,198 @@
+/* الجسم */
+
+body {
+    background-color: #181818;
+    /* خلفية داكنة أكثر تألقًا */
+    color: #e0e0e0;
+    /* نص فاتح لزيادة التباين */
+}
+
+
+/* Hero Section */
+
+.bg-dark-blue {
+    background-color: #2a4d7c;
+    /* أزرق مائل للرمادي */
+    color: #ffffff;
+    /* نص أبيض لزيادة التباين */
+}
+
+.bg-orange-dark {
+    background-color: #d2691e;
+    /* برتقالي داكن */
+    color: #ffffff;
+    /* نص أبيض */
+}
+
+
+/* البطاقات */
+
+.card {
+    background-color: #2a2a2a;
+    /* خلفية داكنة أكثر */
+    border: none;
+}
+
+.card-title {
+    color: #ff7043;
+    /* لون مميز للعناوين بالبرتقالي المحمر */
+}
+
+.card-body p {
+    color: #b0bec5;
+    /* نص فاتح ولكن ليس أبيض لجعل القراءة أسهل */
+}
+
+
+/* ألوان النصوص داخل البطاقات ذات الخلفية البيضاء */
+
+.bg-white .card-body p {
+    color: #212121;
+    /* نص داكن داخل البطاقات البيضاء */
+}
+
+.bg-white .card-title {
+    color: #1e88e5;
+    /* أزرق لامع للعناوين */
+}
+
+
+/* الأزرار */
+
+.btn-custom-orange {
+    background-color: #ff5722;
+    /* برتقالي دافئ */
+    color: white;
+    border: none;
+}
+
+.btn-custom-orange:hover {
+    background-color: #e64a19;
+    /* برتقالي داكن عند المرور */
+}
+
+.btn-outline-primary {
+    border-color: #1e88e5;
+    /* أزرق داكن */
+    color: #1e88e5;
+}
+
+.btn-outline-primary:hover {
+    background-color: #1e88e5;
+    color: white;
+}
+
+
+/* تأثيرات البطاقات */
+
+.shadow-sm {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    /* تأثير ظل داكن أفضل */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-5,
+.mb-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+ul li {
+    color: #b0bec5;
+    /* نص خفيف داخل القوائم */
+}
+
+
+/* العناوين */
+
+h3,
+h2 {
+    color: #ff7043;
+    /* لون مميز للعناوين بالبرتقالي المحمر */
+}
+
+h1 {
+    color: #ffffff;
+    /* نص العنوان الرئيسي أبيض */
+}
+
+
+/* الأزرار الخاصة بالنجاح */
+
+.btn-success {
+    background-color: #388e3c;
+    /* أخضر */
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #2c6e31;
+    /* أخضر داكن عند المرور */
+}
+
+
+/* خلفية داكنة لبقية الأقسام */
+
+.bg-light {
+    background-color: #2a2a2a !important;
+    /* خلفية داكنة */
+    color: #e0e0e0;
+    /* نص فاتح */
+}
+
+.card p {
+    color: #f1f1f1;
+    /* أو أي لون فاتح واضح */
+}
+
+
+/* تأثير على جميع الكروت عند الوقوف عليها */
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 25px rgba(255, 112, 67, 0.7);
+    /* توهج بلون برتقالي */
+    border: 1px solid #ff7043;
+}
+
+
+/* تغيير لون النص داخل الكارت عند الوقوف */
+
+.card:hover .card-title {
+    color: #ffc107;
+    /* أصفر لامع */
+}
+
+.card:hover .card-text {
+    color: #ffffff;
+    /* نص أبيض بالكامل */
+}
+
+
+/* جعل الكارت ناعم في الحركة */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* تأثيرات لكل قسم عند الوقوف */
+
+.bg-light:hover,
+.bg-secondary:hover {
+    box-shadow: 0 0 20px rgba(30, 136, 229, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+
+/* تأثير لكل البلوكات الأخرى */
+
+.section-hover-effect:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
