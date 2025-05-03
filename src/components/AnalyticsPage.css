@@ -1,0 +1,126 @@
+/* تحسين الكروت */
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* تنسيق خلفية الرسوم البيانية */
+
+.canvas-container {
+    background-color: #f4f6f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* تحسين الجدول */
+
+.table {
+    background-color: #343a40;
+    color: #c4a81a;
+    border-radius: 10px;
+}
+
+.table th,
+.table td {
+    color: #1e1e1e;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.table th {
+    background-color: #2a4d7c;
+    color: black;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #495057;
+    color: black;
+}
+
+
+/* أزرار مخصصة */
+
+.btn-custom-orange {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom-orange:hover {
+    background-color: #e64a19;
+}
+
+
+/* تنسيق النصوص */
+
+h1,
+h2,
+h3 {
+    color: #2a4d7c;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+
+/* التفاعل مع الصفحة على الأجهزة الصغيرة */
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    .card-title {
+        font-size: 1.25rem;
+    }
+    .card-header {
+        font-size: 1.1rem;
+    }
+}
+
+
+/* تحسين خيارات التلميحات */
+
+.tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* خلفية مظللة */
+    color: white;
+    /* نص أبيض */
+    padding: 5px 10px;
+    /* حشو التلميح */
+    border-radius: 5px;
+    /* تدوير الزوايا */
+}
+
+
+/* تحسين الرسومات البيانية داخل الكارت */
+
+.card-body canvas {
+    border-radius: 10px;
+    /* تدوير الزوايا */
+    border: 1px solid #ccc;
+    /* إضافة حدود خفيفة حول الرسم */
+}
+
+
+/* تحسين النصوص داخل الرسومات البيانية */
+
+.card-body h3 {
+    font-size: 1.75rem;
+    /* حجم الخط أكبر */
+    margin-bottom: 1rem;
+    /* مسافة تحت العنوان */
+    font-family: 'Arial', sans-serif;
+    /* نوع الخط */
+}
